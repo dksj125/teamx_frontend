@@ -1,0 +1,179 @@
+.bgcontainer {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  opacity: 35%;
+}
+
+.mainbg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 35%;
+}
+
+.mainbg2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 35%;
+}
+
+.mainbgsize {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+
+.Goal{
+  background-color: white;
+  height: 130px;
+}
+
+.goalfont {
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.outer{
+  display: table;
+  width: 100%;
+}
+
+#play {
+  background-color: black;
+  table-layout: fixed;
+}
+
+.playfont {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  transform: translate( -50%, -50% );
+}
+
+
+.respect {
+  background-color: white;
+  width: 50%;
+  height: 300px;
+  display: table-cell;
+  width: 50%;
+}
+
+.respectfont {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+	position: absolute;
+	top: 150%;
+	left: 70%;
+  transform: translate( -150%, -70% );
+}
+
+.lookmore{
+  background-color: white;
+  color: black;
+  
+  text-align: center;
+}
+
+/* about teamx 페이지 css */
+.divide_first_box{
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  position: static;
+}
+
+.divide_first{
+  width: 25%;
+  height: 700px;
+  float: left;
+  background-color: white;
+}
+
+.divide_introduce{
+  width: 50%;
+  height: 700px;
+  float: left;
+  background-color: white;
+}
+
+.about_teamxlogosize{
+  width:100%;
+  height: 40%;
+  transform: translateY(80%);
+}
+
+.about_teamx_introduce{
+  width: 50%;
+  height: 300px;
+  float: left;
+  background-color: white;
+  color: black;
+  font-size: small;
+  transform: translateY( 76.5% );
+}
+
+.divide_second{
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  position: static;
+}
+
+.plan{
+  width: 100%;
+  height: 700px;
+  float: center;
+}
+
+.divide_third{
+  width: 100%;
+  height: 700px;
+  background-color: white;
+
+  position: static
+}
+
+.image_slide{
+  width: 50%;
+  height: 350px;
+  background-color: black;
+  transform: translate( 50%, 50% );
+}
+
+/* about_members_page css */
+
+.about_members_page{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: static;
+}
+
+.member1{
+  width: 140px;
+  height: 140px;
+  border-radius: 70%;
+  overflow: hidden;
+  background-color: black;
+  transform: translate(200%,150%);
+}
+
+.member2{
+  width: 140px;
+  height: 140px;
+  border-radius: 70%;
+  overflow: hidden;
+  background-color: black;
+  transform: translate(200%,180%);
+}
